@@ -1,0 +1,400 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20203.20.1110.1623                               -->
+<workbook original-version='18.1' source-build='2020.3.3 (20203.20.1110.1623)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='台灣電力公司_太陽光電發電量及平均單位裝置容量每日發電量統計表' inline='true' name='federated.0mph48s1mkzuo511hzk261jqns6c' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='台灣電力公司_太陽光電發電量及平均單位裝置容量每日發電量統計表' name='textscan.1wojyh90oow2if16gduj80if4rwx'>
+            <connection class='textscan' directory='C:/Users/NUTN/Downloads' filename='台灣電力公司_太陽光電發電量及平均單位裝置容量每日發電量統計表.csv' password='' port='0' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.1wojyh90oow2if16gduj80if4rwx' name='台灣電力公司_太陽光電發電量及平均單位裝置容量每日發電量統計表.csv' table='[台灣電力公司_太陽光電發電量及平均單位裝置容量每日發電量統計表#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='zh_TW' separator=','>
+            <column datatype='integer' name='年度/year' ordinal='0' />
+            <column datatype='integer' name='月份/month' ordinal='1' />
+            <column datatype='string' name='光電站名稱/site name' ordinal='2' />
+            <column datatype='real' name='裝置容量(瓩)/installed capacity(kW)' ordinal='3' />
+            <column datatype='integer' name='發電量(度)/Power generation(kW-h)' ordinal='4' />
+            <column datatype='real' name='平均單位裝置容量每日發電量/Average unit capacity per day' ordinal='5' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.1wojyh90oow2if16gduj80if4rwx' name='台灣電力公司_太陽光電發電量及平均單位裝置容量每日發電量統計表.csv' table='[台灣電力公司_太陽光電發電量及平均單位裝置容量每日發電量統計表#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='zh_TW' separator=','>
+            <column datatype='integer' name='年度/year' ordinal='0' />
+            <column datatype='integer' name='月份/month' ordinal='1' />
+            <column datatype='string' name='光電站名稱/site name' ordinal='2' />
+            <column datatype='real' name='裝置容量(瓩)/installed capacity(kW)' ordinal='3' />
+            <column datatype='integer' name='發電量(度)/Power generation(kW-h)' ordinal='4' />
+            <column datatype='real' name='平均單位裝置容量每日發電量/Average unit capacity per day' ordinal='5' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[台灣電力公司_太陽光電發電量及平均單位裝置容量每日發電量統計表.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;zh_Hans_CN&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;NT$&quot;</attribute>
+              <attribute datatype='string' name='debit-close-char'>&quot;&quot;</attribute>
+              <attribute datatype='string' name='debit-open-char'>&quot;&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;zh_TW&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>年度/year</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[年度/year]</local-name>
+            <parent-name>[台灣電力公司_太陽光電發電量及平均單位裝置容量每日發電量統計表.csv]</parent-name>
+            <remote-alias>年度/year</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[台灣電力公司_太陽光電發電量及平均單位裝置容量每日發電量統計表.csv_3E355296FFE5405592A0062BED43F60B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>月份/month</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[月份/month]</local-name>
+            <parent-name>[台灣電力公司_太陽光電發電量及平均單位裝置容量每日發電量統計表.csv]</parent-name>
+            <remote-alias>月份/month</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[台灣電力公司_太陽光電發電量及平均單位裝置容量每日發電量統計表.csv_3E355296FFE5405592A0062BED43F60B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>光電站名稱/site name</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[光電站名稱/site name]</local-name>
+            <parent-name>[台灣電力公司_太陽光電發電量及平均單位裝置容量每日發電量統計表.csv]</parent-name>
+            <remote-alias>光電站名稱/site name</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LZH_RCN' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[台灣電力公司_太陽光電發電量及平均單位裝置容量每日發電量統計表.csv_3E355296FFE5405592A0062BED43F60B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>裝置容量(瓩)/installed capacity(kW)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[裝置容量(瓩)/installed capacity(kW)]</local-name>
+            <parent-name>[台灣電力公司_太陽光電發電量及平均單位裝置容量每日發電量統計表.csv]</parent-name>
+            <remote-alias>裝置容量(瓩)/installed capacity(kW)</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[台灣電力公司_太陽光電發電量及平均單位裝置容量每日發電量統計表.csv_3E355296FFE5405592A0062BED43F60B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>發電量(度)/Power generation(kW-h)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[發電量(度)/Power generation(kW-h)]</local-name>
+            <parent-name>[台灣電力公司_太陽光電發電量及平均單位裝置容量每日發電量統計表.csv]</parent-name>
+            <remote-alias>發電量(度)/Power generation(kW-h)</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[台灣電力公司_太陽光電發電量及平均單位裝置容量每日發電量統計表.csv_3E355296FFE5405592A0062BED43F60B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>平均單位裝置容量每日發電量/Average unit capacity per day</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[平均單位裝置容量每日發電量/Average unit capacity per day]</local-name>
+            <parent-name>[台灣電力公司_太陽光電發電量及平均單位裝置容量每日發電量統計表.csv]</parent-name>
+            <remote-alias>平均單位裝置容量每日發電量/Average unit capacity per day</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[台灣電力公司_太陽光電發電量及平均單位裝置容量每日發電量統計表.csv_3E355296FFE5405592A0062BED43F60B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <_.fcp.ObjectModelTableType.true...column caption='台灣電力公司_太陽光電發電量及平均單位裝置容量每日發電量統計表.csv' datatype='table' name='[__tableau_internal_object_id__].[台灣電力公司_太陽光電發電量及平均單位裝置容量每日發電量統計表.csv_3E355296FFE5405592A0062BED43F60B]' role='measure' type='quantitative' />
+      <column caption='光電站名稱/Site Name' datatype='string' name='[光電站名稱/site name]' role='dimension' type='nominal' />
+      <column datatype='real' name='[平均單位裝置容量每日發電量/Average unit capacity per day]' role='measure' type='quantitative' />
+      <column caption='年度/Year' datatype='integer' name='[年度/year]' role='measure' type='quantitative' />
+      <column caption='月份/Month' datatype='integer' name='[月份/month]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[發電量(度)/Power generation(kW-h)]' role='measure' type='quantitative' />
+      <column-instance column='[平均單位裝置容量每日發電量/Average unit capacity per day]' derivation='Avg' name='[avg:平均單位裝置容量每日發電量/Average unit capacity per day:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[年度/year]' derivation='Count' name='[cnt:年度/year:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[發電量(度)/Power generation(kW-h)]' derivation='None' name='[none:發電量(度)/Power generation(kW-h):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[平均單位裝置容量每日發電量/Average unit capacity per day]' derivation='Sum' name='[sum:平均單位裝置容量每日發電量/Average unit capacity per day:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[年度/year]' derivation='Sum' name='[sum:年度/year:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[月份/month]' derivation='Sum' name='[sum:月份/month:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[發電量(度)/Power generation(kW-h)]' derivation='Sum' name='[sum:發電量(度)/Power generation(kW-h):qk]' pivot='key' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[:Measure Names]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.0mph48s1mkzuo511hzk261jqns6c].[avg:平均單位裝置容量每日發電量/Average unit capacity per day:qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.0mph48s1mkzuo511hzk261jqns6c].[cnt:年度/year:qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.0mph48s1mkzuo511hzk261jqns6c].[sum:平均單位裝置容量每日發電量/Average unit capacity per day:qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.0mph48s1mkzuo511hzk261jqns6c].[sum:年度/year:qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.0mph48s1mkzuo511hzk261jqns6c].[sum:月份/month:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.0mph48s1mkzuo511hzk261jqns6c].[none:發電量(度)/Power generation(kW-h):qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.0mph48s1mkzuo511hzk261jqns6c].[sum:發電量(度)/Power generation(kW-h):qk]&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Taiwan&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='台灣電力公司_太陽光電發電量及平均單位裝置容量每日發電量統計表.csv' id='台灣電力公司_太陽光電發電量及平均單位裝置容量每日發電量統計表.csv_3E355296FFE5405592A0062BED43F60B'>
+            <properties context=''>
+              <relation connection='textscan.1wojyh90oow2if16gduj80if4rwx' name='台灣電力公司_太陽光電發電量及平均單位裝置容量每日發電量統計表.csv' table='[台灣電力公司_太陽光電發電量及平均單位裝置容量每日發電量統計表#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='zh_TW' separator=','>
+                  <column datatype='integer' name='年度/year' ordinal='0' />
+                  <column datatype='integer' name='月份/month' ordinal='1' />
+                  <column datatype='string' name='光電站名稱/site name' ordinal='2' />
+                  <column datatype='real' name='裝置容量(瓩)/installed capacity(kW)' ordinal='3' />
+                  <column datatype='integer' name='發電量(度)/Power generation(kW-h)' ordinal='4' />
+                  <column datatype='real' name='平均單位裝置容量每日發電量/Average unit capacity per day' ordinal='5' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='台灣電力公司_太陽光電發電量及平均單位裝置容量每日發電量統計表' name='federated.0mph48s1mkzuo511hzk261jqns6c' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0mph48s1mkzuo511hzk261jqns6c'>
+            <column-instance column='[光電站名稱/site name]' derivation='None' name='[none:光電站名稱/site name:nk]' pivot='key' type='nominal' />
+            <column-instance column='[發電量(度)/Power generation(kW-h)]' derivation='Sum' name='[sum:發電量(度)/Power generation(kW-h):qk]' pivot='key' type='quantitative' />
+            <column caption='光電站名稱/Site Name' datatype='string' name='[光電站名稱/site name]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[發電量(度)/Power generation(kW-h)]' role='measure' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='quantitative' column='[federated.0mph48s1mkzuo511hzk261jqns6c].[sum:發電量(度)/Power generation(kW-h):qk]' included-values='in-range'>
+            <min>3986</min>
+            <max>600000</max>
+          </filter>
+          <slices>
+            <column>[federated.0mph48s1mkzuo511hzk261jqns6c].[sum:發電量(度)/Power generation(kW-h):qk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.0mph48s1mkzuo511hzk261jqns6c].[sum:發電量(度)/Power generation(kW-h):qk]' num-steps='9' type='custom-interpolated'>
+              <color-palette custom='true' name='' type='ordered-sequential'>
+                <color>#f1f1f1</color>
+                <color>#deebde</color>
+                <color>#cce5cc</color>
+                <color>#bbe0bb</color>
+                <color>#aadaaa</color>
+                <color>#9ad59a</color>
+                <color>#8bcf8a</color>
+                <color>#7cc97b</color>
+                <color>#6ec46d</color>
+                <color>#60be60</color>
+                <color>#54b953</color>
+              </color-palette>
+            </encoding>
+            <encoding attr='size-bar' field='[federated.0mph48s1mkzuo511hzk261jqns6c].[sum:發電量(度)/Power generation(kW-h):qk]' field-type='quantitative' max-size='1' min-size='0.005' type='centersize' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='on' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <size column='[federated.0mph48s1mkzuo511hzk261jqns6c].[sum:發電量(度)/Power generation(kW-h):qk]' />
+              <color column='[federated.0mph48s1mkzuo511hzk261jqns6c].[sum:發電量(度)/Power generation(kW-h):qk]' />
+              <text column='[federated.0mph48s1mkzuo511hzk261jqns6c].[none:光電站名稱/site name:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-line-first' value='true' />
+                <format attr='mark-labels-line-last' value='true' />
+                <format attr='mark-labels-range-min' value='true' />
+                <format attr='mark-labels-range-max' value='true' />
+                <format attr='mark-labels-mode' value='all' />
+                <format attr='mark-labels-range-scope' value='pane' />
+                <format attr='mark-labels-range-field' value='' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{A84B1073-33D0-4B2E-8610-489515368CC3}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='30'>
+    <window class='worksheet' maximized='true' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='155'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card param='[federated.0mph48s1mkzuo511hzk261jqns6c].[sum:發電量(度)/Power generation(kW-h):qk]' show-domain='false' show-null-ctrls='false' type='filter' />
+            <card pane-specification-id='0' param='[federated.0mph48s1mkzuo511hzk261jqns6c].[sum:發電量(度)/Power generation(kW-h):qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0mph48s1mkzuo511hzk261jqns6c].[:Measure Names]</field>
+            <field>[federated.0mph48s1mkzuo511hzk261jqns6c].[avg:發電量(度)/Power generation(kW-h):qk]</field>
+            <field>[federated.0mph48s1mkzuo511hzk261jqns6c].[none:光電站名稱/site name:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{C43DB128-DEB7-433C-9A0B-ADD8ABC1EA3F}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Sheet 1' width='192'>
+      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
+      FxYe7dE8MgAAAABJRU5ErkJggg==
+    </thumbnail>
+  </thumbnails>
+</workbook>
